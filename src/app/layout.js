@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
+import { Inter,Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const roboto_slab = Roboto_Slab({subsets:["latin"]})
 
 export const metadata = {
   title: "Create Next App",
